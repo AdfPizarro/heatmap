@@ -1,0 +1,37 @@
+nav{
+    background-color: rgb(168, 166, 166);
+    height: 15vh;
+    display: flex;
+    align-items: center;    
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.highlight-button {
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 11px;
+}
+
+input {
+    height: 60%;
+    width: 30vw;
+    margin-right: 20px;
+    border-radius: 11px;
+}
+
+.navbar {
+    margin: 0 20px 0 20px;
+    width: 70vw;
+}
