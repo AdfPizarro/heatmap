@@ -73,12 +73,11 @@ input {
   justify-content: flex-end;
   margin-right: 50px;
   margin-left: auto;
-  width: 200px;
+  height: 85px;
 }
 
 article{
   width: 100%;
-  height: 200px;
   background: #333;
   flex-direction: column;
   justify-content: center;
