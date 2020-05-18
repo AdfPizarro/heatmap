@@ -6,6 +6,10 @@ p {
   text-align: justify;
 }
 
+button {
+  border-radius: 11px;
+}
+
 img {
   height: 100%;
 }
@@ -13,6 +17,8 @@ img {
 body {
   color: white;
 }
+
+
 
 nav {
   background-color: rgb(168, 166, 166);
@@ -128,6 +134,7 @@ article {
   text-decoration: underline;
   text-transform: uppercase;
   color: black;
+  line-height: 1.3;
 }
 
 .author {
@@ -140,7 +147,7 @@ article {
   text-decoration: underline;
 }
 
-.article-preview{
+p {
   color: #333;
   font-size: 20px;
 }
@@ -154,15 +161,51 @@ article {
 .material-icons.article-arrow {
   font-size: 40px;
 }
+
+/* Cat banners */
+
+.big-banner{
+  grid-column: span 2;
+  background: #686868;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-banner .title{
+  margin: 20px 0px;
+}
+
+.big-banner button{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.banner-img{
+  margin: 30px 0;
+  height: 200px;
+}
+
+.banner-sign {
+  margin: 30px 0px;
+}
+
+.text-container p{
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
 /* header, */
 .main-articles {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
+
 }
 
 .articles-times-3 {
-  grid-column: span 2;
+  grid-column: span 1;
   background-color: rgb(197, 197, 197);
   justify-content: flex-start;
   display: flex;
