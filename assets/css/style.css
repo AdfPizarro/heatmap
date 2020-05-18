@@ -115,7 +115,7 @@ article {
 
 /* Helper Classes */
 .flex { display: flex; }
-.flex-center { justify-items: center; }
+.flex-center { justify-content:  center; }
 .grid { display: grid; }
 
 
@@ -352,4 +352,36 @@ p {
 .guides .title{
   font-size: 30px;
   margin: 30px 0px;
+}
+
+/* Subscribe Banner  */
+
+
+.subscribe-section{
+  background: white;
+  border-radius: 11px;
+  width: 500px;
+  height: 50px;
+  margin: auto;
+}
+
+.subscribe-section input {
+  width: 60%;
+  margin-top: 7px;
+  margin-left: 20%;
+}
+
+.subscribe-section button{
+  padding: 0;
+  border: none;
+  border-radius: 0px;
+  border-left: 1px solid #333;
+  background: none;
+  width: 40%;
+
+}
+
+
+.link-latest {
+  text-transform: uppercase;
 }
