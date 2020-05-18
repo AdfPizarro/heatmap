@@ -172,6 +172,7 @@ p {
 }
 
 .big-banner-2,
+.big-banner-book,
 .big-banner-3{
   grid-column: span 6;
   background: #686868;
@@ -191,10 +192,27 @@ p {
 
 .big-banner button,
 .big-banner-2 button,
-.big-banner-3 button {
+.big-banner-3 button,
+.big-banner-book button{
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   padding: 10px;
+}
+
+.big-banner-book{
+  flex-direction: row;
+  padding: 50px;
+}
+.banner-container .text-container p{
+  text-align: left;
+  margin: 30px 0px;
+  width: 70%;
+}
+
+.banner-container{
+  flex-direction: column;
+  text-align: left;
+
 }
 
 .banner-img{
@@ -212,6 +230,13 @@ p {
 
 .banner-date{
   margin: 50px 0;
+}
+
+
+
+.big-banner-book .banner-top{
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .text-container p{
