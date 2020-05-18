@@ -232,13 +232,13 @@ p {
 /* header, */
 .main-articles {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   text-align: center;
 
 }
 
 .articles-times-3 {
-  grid-column: span 1;
+  grid-column: span 2;
   background-color: rgb(197, 197, 197);
   justify-content: flex-start;
   display: flex;
