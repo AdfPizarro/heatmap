@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: #333;
 }
 
 p {
@@ -66,15 +67,27 @@ input {
 .container header {
   grid-column: 1/3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1fr;
   padding: 30px 0;
   background-color: black;
 }
 
+.header-button {
+  font-family: Mija, sans-serif;
+  font-size: 20px;
+}
+
+.article-container {
+  padding: 40px;
+}
+
 .articles-header {
+  font-family: Mija, sans-serif;
+  font-size: 40px;
   grid-column: 2/3;
   justify-content: center;
   align-self: center;
+  text-align: center;
 }
 
 .articles-img {
@@ -121,7 +134,7 @@ article {
 
 /* Fonts */
 .date {
-  font-family: 'Elena', serif;
+  font-family: Elena, serif;
   color: #666;
   font-size: 15px;
   text-transform: uppercase;
@@ -129,7 +142,7 @@ article {
 }
 
 .article-title {
-  font-family: 'Mija', sans-serif;
+  font-family: Mija, sans-serif;
   font-size: 30px;
   text-decoration: underline;
   text-transform: uppercase;
@@ -138,7 +151,7 @@ article {
 }
 
 .author {
-  font-family: 'Mija', sans-serif;
+  font-family: Mija, sans-serif;
   color: #666;
   font-weight: 700;
 }
@@ -165,6 +178,8 @@ p {
 /* Cat banners */
 
 .big-banner{
+  margin: 20px;
+  border-radius: 11px;
   grid-column: span 4;
   background: #686868;
   flex-direction: column;
@@ -174,6 +189,8 @@ p {
 .big-banner-2,
 .big-banner-book,
 .big-banner-3{
+  margin: 20px;
+  border-radius: 11px;
   grid-column: span 6;
   background: #686868;
   flex-direction: column;
@@ -193,8 +210,8 @@ p {
 .big-banner button,
 .big-banner-2 button,
 .big-banner-3 button,
-.big-banner-book button{
-  font-family: 'Mija', sans-serif;
+.big-banner-book button {
+  font-family: Mija, sans-serif;
   font-size: 20px;
   padding: 10px;
 }
@@ -288,7 +305,6 @@ p {
 
 .articles-week {
   grid-column: span 3;
-  padding: 20px;
 }
 
 .profile-picture {
@@ -385,26 +401,48 @@ p {
   text-transform: uppercase;
 }
 
-footer {
+footer,
+.foot-note {
   background: gray;
   flex-direction: column;
   align-items: center;
+  font-family: Elena, serif;
 }
 
 footer div {
-  max-width: 60%;
+  max-width: 80%;
+  margin: 20px 0;
 }
 
-footer li {
-  display: inline;
+footer ul {
+  text-align: center;
 }
 
-footer li::before {
+.footer-list li {
+  font-size: 20px;
+  display: inline-block;
+  margin: 15px 10px;
+}
+
+.footer-list li::before {
   content: "• ";
   color: black;
 }
 
-/* footer img {
+footer img {
   max-width: 100%;
   height: auto;
-} */
+}
+
+.footer-img {
+  align-items: flex-end;
+}
+
+.foot-text {
+  max-width: 80%;
+}
+
+.foot-text li {
+  margin: 15px 10px;
+  display: inline-block;
+}
