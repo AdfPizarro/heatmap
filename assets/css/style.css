@@ -154,10 +154,7 @@ article {
 }
 
 
-/* Helper Classes */
-.flex { display: flex; }
-.flex-center { justify-content:  center; }
-.grid { display: grid; }
+
 
 
 /* Fonts */
@@ -214,15 +211,19 @@ p {
   justify-content: center;
 }
 
-.big-banner-2,
-.big-banner-book,
-.big-banner-3{
-  margin: 20px;
-  border-radius: 11px;
-  grid-column: span 6;
-  background: #686868;
-  flex-direction: column;
-  justify-content: center;
+.big-banner-3,
+.big-banner-book{
+  margin: 0;
+  border-radius: 0;
+}
+
+.nad-banner{
+  margin:0;
+}
+
+.big-banner-book{
+  flex-direction: row;
+  padding: 50px;
 }
 
 .big-banner .title,
@@ -235,23 +236,23 @@ p {
   margin: 20px 175px;
 }
 
-.big-banner button,
-.big-banner-2 button,
-.big-banner-3 button,
-.big-banner-book button {
+.big-banner button {
   font-family: Mija, sans-serif;
   font-size: 20px;
   padding: 10px;
 }
 
-.big-banner-book{
-  flex-direction: row;
-  padding: 50px;
-}
+
 .banner-container .text-container p{
   text-align: left;
   margin: 30px 0px;
   width: 70%;
+}
+
+.text-container p{
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .banner-container{
@@ -284,11 +285,7 @@ p {
   text-transform: uppercase;
 }
 
-.text-container p{
-  margin: 30px;
-  text-align: center;
-  font-size: 25px;
-}
+
 
 .link-latest {
   grid-column: span 6;
@@ -474,3 +471,11 @@ footer img {
   margin: 15px 10px;
   display: inline-block;
 }
+
+/* Helper Classes */
+.flex { display: flex; }
+.flex-center { justify-content:  center; }
+.grid { display: grid; }
+.sp2 { grid-column: span 2; }
+.sp4 { grid-column: span 4; }
+.sp6 { grid-column: span 6; }
