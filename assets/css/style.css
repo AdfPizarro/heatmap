@@ -121,7 +121,7 @@ article {
 
 /* Fonts */
 .date {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Elena', serif;
   color: #666;
   font-size: 15px;
   text-transform: uppercase;
@@ -129,7 +129,7 @@ article {
 }
 
 .article-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Mija', sans-serif;
   font-size: 30px;
   text-decoration: underline;
   text-transform: uppercase;
@@ -138,7 +138,7 @@ article {
 }
 
 .author {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Mija', sans-serif;
   color: #666;
   font-weight: 700;
 }
@@ -194,7 +194,7 @@ p {
 .big-banner-2 button,
 .big-banner-3 button,
 .big-banner-book button{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Mija', sans-serif;
   font-size: 20px;
   padding: 10px;
 }
@@ -381,7 +381,19 @@ p {
 
 }
 
-
 .link-latest {
   text-transform: uppercase;
+}
+
+footer {
+  background: gray;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li::before {
+  content: "• ";
+  color: black;
 }
