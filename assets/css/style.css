@@ -338,6 +338,11 @@ article {
   border: 1px solid rgb(141, 141, 141);
 }
 
+.articles-week a {
+  color: #333;
+  text-decoration: underline;
+}
+
 .week-container{
   margin: 30px;
 }
