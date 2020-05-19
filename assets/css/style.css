@@ -34,6 +34,10 @@ input{
   background: none;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 /* Nav Bar*/
 nav {
   background-color: rgb(168, 166, 166);
@@ -200,6 +204,10 @@ article {
   justify-content: center;
 }
 
+.big-banner p {
+  color: #fff;
+}
+
 .big-banner-3,
 .big-banner-book{
   margin: 0;
@@ -320,9 +328,14 @@ article {
   text-align: left;
 }
 
+.person-week a {
+  text-decoration: underline;
+}
+
 .articles-week {
   grid-column: span 3;
   grid-gap: 30px;
+  border: 1px solid rgb(141, 141, 141);
 }
 
 .week-container{
@@ -331,6 +344,10 @@ article {
 
 .profile-picture {
   height: 85px;
+}
+
+.profile-picture a{
+  width: 85px;
 }
 
 .profile-picture h1 {
@@ -476,6 +493,7 @@ footer img {
 .sp2 { grid-column: span 2; }
 .sp4 { grid-column: span 4; }
 .sp6 { grid-column: span 6; }
+.mija { font-family: Mija, sans-serif;}
 
 
 /* Heatmap Colors */
