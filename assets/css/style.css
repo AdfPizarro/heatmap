@@ -24,7 +24,7 @@ body {
   color: white;
 }
 
-input{
+input {
   font-family: Mija, sans-serif;
   font-size: 20px;
   height: 60%;
@@ -34,11 +34,11 @@ input{
   background: none;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
 }
 
-/* Nav Bar*/
+/* Nav Bar */
 nav {
   background-color: rgb(168, 166, 166);
   height: 15vh;
@@ -82,20 +82,27 @@ nav ul {
   grid-template-columns: 1fr 1fr;
 }
 
-header article{
-  border: 1px rgb(141, 141, 141) solid
+article {
+  width: 100%;
+  background: rgb(92, 91, 91);
+  flex-direction: column;
+  justify-content: center;
 }
 
- .c-head {
+header article {
+  border: 1px rgb(141, 141, 141) solid;
+}
+
+.c-head {
   grid-column: 1/3;
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr;
   padding: 30px 0;
 }
 
-.input-container{
+.input-container {
   height: 50px;
-  background: #ffffff url("../images/magx2.png") 10px 50% no-repeat;
+  background: #fff url("../images/magx2.png") 10px 50% no-repeat;
   border-radius: 11px;
   margin-right: 20px;
   align-items: center;
@@ -126,13 +133,6 @@ header article{
   height: 35px;
 }
 
-article {
-  width: 100%;
-  background: rgb(92, 91, 91);
-  flex-direction: column;
-  justify-content: center;
-}
-
 .author-section {
   height: 85px;
   align-content: center;
@@ -160,7 +160,7 @@ article {
   color: #666;
   font-size: 15px;
   text-transform: uppercase;
- display: flex;
+  display: flex;
 }
 
 .article-title {
@@ -182,12 +182,9 @@ article {
   text-decoration: underline;
 }
 
-
-
-.article-arrow{
+.article-arrow {
   margin-top: 100px;
   margin-bottom: 30px;
-
 }
 
 .material-icons.article-arrow {
@@ -195,7 +192,7 @@ article {
 }
 
 /* Cat banners */
-.big-banner{
+.big-banner {
   margin: 20px;
   border-radius: 11px;
   grid-column: span 4;
@@ -209,23 +206,23 @@ article {
 }
 
 .big-banner-3,
-.big-banner-book{
+.big-banner-book {
   margin: 0;
   border-radius: 0;
 }
 
-.nad-banner{
-  margin:0;
+.nad-banner {
+  margin: 0;
 }
 
-.big-banner-book{
+.big-banner-book {
   flex-direction: row;
   padding: 50px;
 }
 
 .big-banner .title,
 .big-banner-2 .title {
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .big-banner-3 .title,
@@ -238,25 +235,34 @@ article {
   padding: 10px;
 }
 
-.banner-container .text-container p{
-  text-align: left;
-  margin: 30px 0px;
-  width: 70%;
+.link-latest p {
+  text-align: center;
 }
 
-.text-container p{
+.person-week-content h2,
+.person-week-content p {
+  margin: 20px;
+  text-align: left;
+}
+
+.text-container p {
   margin: 30px;
   text-align: center;
   font-size: 25px;
 }
 
-.banner-container{
-  flex-direction: column;
+.banner-container .text-container p {
   text-align: left;
-
+  margin: 30px 0;
+  width: 70%;
 }
 
-.banner-img{
+.banner-container {
+  flex-direction: column;
+  text-align: left;
+}
+
+.banner-img {
   margin: 30px 0;
   height: 200px;
 }
@@ -266,14 +272,14 @@ article {
 }
 
 .banner-sign {
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
-.banner-date{
+.banner-date {
   margin: 50px 0;
 }
 
-.big-banner-book .banner-top{
+.big-banner-book .banner-top {
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -281,18 +287,16 @@ article {
 .link-latest {
   grid-column: span 6;
   margin: 50px 0;
+  text-transform: uppercase;
 }
 
-.link-latest p {
-  text-align: center;
-}
+
 
 /* header, */
 .main-articles {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   text-align: center;
-
 }
 
 .articles-times-3 {
@@ -312,20 +316,14 @@ article {
   color: #333;
 }
 
-/* Person of the week section*/
+/* Person of the week section */
 
-.person-week-container{
-  padding:  50px;
+.person-week-container {
+  padding: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-.person-week-content h2,
-.person-week-content p{
-  margin: 20px;
-  text-align: left;
 }
 
 .person-week a {
@@ -343,7 +341,7 @@ article {
   text-decoration: underline;
 }
 
-.week-container{
+.week-container {
   margin: 30px;
 }
 
@@ -351,7 +349,7 @@ article {
   height: 85px;
 }
 
-.profile-picture a{
+.profile-picture a {
   width: 85px;
 }
 
@@ -365,59 +363,55 @@ article {
   margin: 15px;
 }
 
-.articles-week .date{
+.articles-week .date {
   color: #333;
   display: inline;
 }
 
-.articles-week .paragraph{
+.articles-week .paragraph {
   margin: 20px 30px 80px 100px;
 }
 
 
 /* guides  */
-.guides{
+.guides {
   grid-column: span 2;
   text-align: left;
 }
 
-.guides span{
+.guides span {
   color: #888;
   text-transform: uppercase;
   font-size: 14px;
-
 }
 
-.guides-container{
+.guides-container {
   margin: 20px;
 }
 
 .guides-container li {
   font-size: 22px;
-
   margin: 20px 50px;
 }
 
-.guides-container li a{
+.guides-container li a {
   color: #333;
   text-decoration: underline;
-
 }
+
 .guides-container li::before {
   content: "• ";
   color: black;
+}
 
- }
-
-.guides .title{
+.guides .title {
   font-size: 30px;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
 /* Subscribe Banner  */
 
-
-.subscribe-section{
+.subscribe-section {
   background: white;
   border-radius: 11px;
   width: 500px;
@@ -431,18 +425,13 @@ article {
   margin-left: 20%;
 }
 
-.subscribe-section button{
+.subscribe-section button {
   padding: 0;
   border: none;
-  border-radius: 0px;
+  border-radius: 0;
   border-left: 1px solid #333;
   background: none;
   width: 40%;
-
-}
-
-.link-latest {
-  text-transform: uppercase;
 }
 
 footer,
@@ -453,7 +442,7 @@ footer,
   font-family: Elena, serif;
 }
 
-footer div {
+.foo div {
   max-width: 80%;
   margin: 20px 0;
 }
@@ -473,7 +462,7 @@ footer ul {
   color: black;
 }
 
-footer img {
+.foo img {
   max-width: 100%;
   height: auto;
 }
@@ -493,12 +482,12 @@ footer img {
 
 /* Helper Classes */
 .flex { display: flex; }
-.flex-center { justify-content:  center; }
+.flex-center { justify-content: center; }
 .grid { display: grid; }
 .sp2 { grid-column: span 2; }
 .sp4 { grid-column: span 4; }
 .sp6 { grid-column: span 6; }
-.mija { font-family: Mija, sans-serif;}
+.mija { font-family: Mija, sans-serif; }
 
 
 /* Heatmap Colors */
@@ -506,31 +495,38 @@ footer img {
   background-color: #212121;
   color: #fff;
 }
+
 .priority-2 {
   background-color: #424242;
   color: #fff;
 }
+
 .priority-3 {
   background-color: #616161;
   color: #fff;
 }
+
 .priority-4 {
   background-color: #757575;
   color: #fff;
 }
+
 .priority-5 {
   background-color: #9e9e9e;
   color: #000;
 }
+
 .priority-6 {
   background-color: #bdbdbd;
   color: #000;
 }
+
 .priority-7 {
   background-color: #e0e0e0;
   color: #000;
 }
+
 .priority-8 {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: #000;
 }
