@@ -1,0 +1,15 @@
+@font-face { font-family: ElenaInitial; src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff"); }
+
+@font-face { font-family: Elena; src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff"); }
+
+@font-face { font-family: Elena; src: url("https://d33wubrfki0l68.cloudfront.net/151446eb4ad2f20af89f3132f66d03cc92c856f4/74612/fonts/elenawebregularitalic/elenawebregularitalic.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/a6275674bf99f00da2e019547d61933d074f2ae7/51beb/fonts/elenawebregularitalic/elenawebregularitalic.woff") format("woff"); font-style: italic; }
+
+@font-face { font-family: Elena; src: url("https://d33wubrfki0l68.cloudfront.net/a7cc92a2d6ae8ea43370e14b53d2ce89a2b2b5ab/7cca9/fonts/elenawebbold/elenawebbold.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/c2ebb4866cc6ce6d5ffdb22b616cb3dde4274107/c6bc6/fonts/elenawebbold/elenawebbold.woff") format("woff"); font-weight: 700; }
+
+@font-face { font-family: Elena; src: url("https://d33wubrfki0l68.cloudfront.net/bbc71fd1b91cc1a4ede7ea378a8bf30b9e32173e/93eeb/fonts/elenawebbolditalic/elenawebbolditalic.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/56129334a763b7d04f2f34cbbd3b4f68f72bb6d7/8045a/fonts/elenawebbolditalic/elenawebbolditalic.woff") format("woff"); font-weight: 700; font-style: italic; }
+
+@font-face { font-family: MijaInitial; src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff"); }
+
+@font-face { font-family: Mija; src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff"); }
+
+@font-face { font-family: Mija; src: url("https://d33wubrfki0l68.cloudfront.net/94691bb5497213e09480b17ef68446d2b85667e9/d58ec/fonts/mijabold/mija_bold-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/1d162cc7792bc1f04919a5a344b4082087b9e012/855b4/fonts/mijabold/mija_bold-webfont.woff") format("woff"); font-weight: 700; }

@@ -1,0 +1,531 @@
+/* Main */
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  text-align: justify;
+  color: #333;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 11px;
+}
+
+img {
+  height: 100%;
+}
+
+body {
+  color: white;
+}
+
+input {
+  font-family: Mija, sans-serif;
+  font-size: 20px;
+  height: 60%;
+  width: 30vw;
+  margin-left: 40px;
+  border-radius: 11px;
+  background: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Nav Bar */
+nav {
+  background-color: rgb(168, 166, 166);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Mija, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 11px;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin-left: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+.navbar {
+  margin: 0 20px 0 20px;
+  width: 70vw;
+  align-items: center;
+}
+
+.navbar img {
+  width: 70px;
+  height: 70px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-container {
+  height: 50px;
+  background: #fff url("../images/magx2.png") 10px 50% no-repeat;
+  border-radius: 11px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+/* Header articles Section */
+
+article {
+  width: 100%;
+  background: rgb(92, 91, 91);
+  flex-direction: column;
+  justify-content: center;
+}
+
+header article {
+  border: 1px rgb(141, 141, 141) solid;
+}
+
+.c-head {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  padding: 30px 0;
+}
+
+.header-button {
+  font-size: 20px;
+}
+
+.article-container {
+  padding: 40px;
+}
+
+.articles-header {
+  font-family: Mija, sans-serif;
+  font-size: 40px;
+  grid-column: 2/3;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.articles-img {
+  grid-column: 3/4;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-left: auto;
+  height: 35px;
+}
+
+.author-section {
+  height: 85px;
+  align-content: center;
+}
+
+.material-icons.header-arrow {
+  font-size: 50px;
+  margin: 40px 0 40px 0;
+}
+
+.author-section span {
+  margin-top: 30px;
+  margin-bottom: 36px;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 50px 150px 50px 0;
+}
+
+.date {
+  font-family: Elena, serif;
+  color: #666;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.article-title {
+  font-family: Mija, sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+  line-height: 1.3;
+}
+
+.author {
+  font-family: Mija, sans-serif;
+  color: #666;
+  font-weight: 700;
+}
+
+.author-name {
+  text-decoration: underline;
+}
+
+.article-arrow {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.material-icons.article-arrow {
+  font-size: 40px;
+}
+
+/* Cat banners */
+.big-banner {
+  margin: 20px;
+  border-radius: 11px;
+  grid-column: span 4;
+  background: #686868;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-banner p {
+  color: #fff;
+}
+
+.big-banner-3,
+.big-banner-book {
+  margin: 0;
+  border-radius: 0;
+}
+
+.nad-banner {
+  margin: 0;
+}
+
+.big-banner-book {
+  flex-direction: row;
+  padding: 50px;
+}
+
+.big-banner .title,
+.big-banner-2 .title {
+  margin: 20px 0;
+}
+
+.big-banner-3 .title,
+.big-banner-3 .text-container {
+  margin: 20px 175px;
+}
+
+.big-banner button {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.link-latest p {
+  text-align: center;
+}
+
+.person-week-content h2,
+.person-week-content p {
+  margin: 20px;
+  text-align: left;
+}
+
+.text-container p {
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.banner-container .text-container p {
+  text-align: left;
+  margin: 30px 0;
+  width: 70%;
+}
+
+.banner-container {
+  flex-direction: column;
+  text-align: left;
+}
+
+.banner-img {
+  margin: 30px 0;
+  height: 200px;
+}
+
+.big-banner-3 .banner-img {
+  height: 400px;
+}
+
+.banner-sign {
+  margin: 30px 0;
+}
+
+.banner-date {
+  margin: 50px 0;
+}
+
+.big-banner-book .banner-top {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.link-latest {
+  grid-column: span 6;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+/* Aricle Section */
+.main-articles {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+}
+
+.articles-times-3 {
+  grid-column: span 2;
+  background-color: rgb(197, 197, 197);
+  justify-content: flex-start;
+  display: flex;
+}
+
+.articles-times-3 a {
+  color: #333;
+}
+
+.articles-times-3 div {
+  display: flex;
+  margin: 10px 20px;
+  color: #333;
+}
+
+/* Person of the week section */
+
+.person-week-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.person-week a {
+  text-decoration: underline;
+}
+
+.articles-week {
+  grid-column: span 3;
+  grid-gap: 30px;
+  border: 1px solid rgb(141, 141, 141);
+  font-family: Elena, serif;
+}
+
+.articles-week a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.week-container {
+  margin: 30px;
+}
+
+.profile-picture {
+  height: 85px;
+}
+
+.profile-picture a {
+  width: 85px;
+}
+
+.profile-picture h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.profile-picture div {
+  text-align: left;
+  margin: 15px;
+}
+
+.articles-week .date {
+  color: #333;
+  display: inline;
+}
+
+.articles-week .paragraph {
+  margin: 20px 30px 80px 100px;
+}
+
+/* Guides  */
+.guides {
+  grid-column: span 2;
+  text-align: left;
+}
+
+.guides span {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.guides-container {
+  margin: 20px;
+}
+
+.guides-container li {
+  font-size: 22px;
+  margin: 20px 50px;
+}
+
+.guides-container li a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.guides-container li::before {
+  content: "• ";
+  color: black;
+}
+
+.guides .title {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+/* Subscribe Banner  */
+
+.subscribe-section {
+  background: white;
+  border-radius: 11px;
+  width: 500px;
+  height: 50px;
+  margin: auto;
+}
+
+.subscribe-section input {
+  width: 60%;
+  margin-top: 7px;
+  margin-left: 20%;
+}
+
+.subscribe-section button {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  border-left: 1px solid #333;
+  background: none;
+  width: 40%;
+}
+
+/* Footer section */
+footer,
+.foot-note {
+  background: gray;
+  flex-direction: column;
+  align-items: center;
+  font-family: Elena, serif;
+}
+
+.foo div {
+  max-width: 80%;
+  margin: 20px 0;
+}
+
+footer ul {
+  text-align: center;
+}
+
+.footer-list li {
+  font-size: 20px;
+  display: inline-block;
+  margin: 15px 10px;
+}
+
+.footer-list li::before {
+  content: "• ";
+  color: black;
+}
+
+.foo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-img {
+  align-items: flex-end;
+}
+
+.foot-text {
+  max-width: 80%;
+}
+
+.foot-text li {
+  margin: 15px 10px;
+  display: inline-block;
+}
+
+/* Helper Classes */
+.flex { display: flex; }
+.flex-center { justify-content: center; }
+.grid { display: grid; }
+.sp2 { grid-column: span 2; }
+.sp4 { grid-column: span 4; }
+.sp6 { grid-column: span 6; }
+.font-mija { font-family: Mija, sans-serif; }
+.font-elena { font-family: Elena, serif; }
+
+/* Heatmap Colors */
+.priority-1 {
+  background-color: #212121;
+  color: #fff;
+}
+
+.priority-2 {
+  background-color: #424242;
+  color: #fff;
+}
+
+.priority-3 {
+  background-color: #616161;
+  color: #fff;
+}
+
+.priority-4 {
+  background-color: #757575;
+  color: #fff;
+}
+
+.priority-5 {
+  background-color: #9e9e9e;
+  color: #000;
+}
+
+.priority-6 {
+  background-color: #bdbdbd;
+  color: #000;
+}
+
+.priority-7 {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.priority-8 {
+  background-color: #eee;
+  color: #000;
+}
